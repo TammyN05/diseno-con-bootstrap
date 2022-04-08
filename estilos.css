@@ -18,3 +18,12 @@
     font-size: 30px;
     font-style: italic;
 }
+
+.progress-bar{
+    background-color: #551486;
+}
+
+.btn{
+    background-color: #551486;
+    color: white; 
+}

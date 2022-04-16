@@ -27,3 +27,29 @@
     background-color: #551486;
     color: white; 
 }
+.stan{
+    color: #a53cf5;
+    
+}
+.stan-dos{
+    color:#8948df;
+}
+
+.cosito{ 
+    color:#551486 !important;
+
+}
+
+.icono{
+    color:#551486 !important;
+}
+
+.accordion-button{
+    background-color: #55148676 !important;
+    color: aliceblue;
+}
+
+.accordion-button:focus{
+    background-color: #551486ca !important;
+    color: rgb(0, 0, 0);
+}

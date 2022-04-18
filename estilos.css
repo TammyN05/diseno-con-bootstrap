@@ -27,6 +27,11 @@
     background-color: #551486;
     color: white; 
 }
+
+.btn:hover{
+    color: aliceblue;
+    background-color: #8948df;
+}
 .stan{
     color:#551486;
     
@@ -52,4 +57,83 @@
 .accordion-button:focus{
     background-color: #551486ca !important;
     color: rgb(0, 0, 0);
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+.idiomas{
+   padding-top: 12px;
+}
+
+.idiomas li{
+    list-style: none;
+    display: inline;
+    padding-top: 20px;
+}
+
+.idiomas li img{
+    width: 50px !important;
+    height: 35px !important;
+}
+
+.iconitos:hover{
+    color: #551486;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.card-img-top:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.footer{
+    height: 50px;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacto {
+    text-align: center;
+    align-items: center;
+    justify-content: center
+
+}
+
+.contacto h3 {
+    height: 50px;
+    padding: 50px;
+    font-size: 40px;
+}
+
+footer ul li{
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.iconos{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.iconos i{
+    padding: 10px 15px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.iconos i:hover{
+    color: #551486;
+    transition: 0.2s;
+    transform: scale(1.2);
 }

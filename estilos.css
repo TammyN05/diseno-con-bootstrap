@@ -1,5 +1,6 @@
-/*NAV*/
-
+html{
+    scroll-snap-type: mandatory;
+}
 .img-fluid{
     width: 80px;
     height: 80px;
@@ -26,6 +27,7 @@
 .btn{
     background-color: #551486;
     color: white; 
+    
 }
 
 .btn:hover{
@@ -130,6 +132,7 @@ footer ul li{
     justify-content: space-evenly;
     font-size: 25px;
     margin-bottom: 60px;
+    color: black;
 }
 
 .iconos i:hover{
